@@ -1,0 +1,92 @@
+html {
+  height: 300%;
+}
+
+body {
+  margin:0;
+  padding:0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(#141e30, #243b55);
+  color: white;
+}
+
+/* some div are container */
+.container {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.507);
+}
+
+a {
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+
+li {
+  padding: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.068);
+  list-style: none;
+}
+
+.contentStyles {
+  text-align: center;
+}
+
+.listNoStyle {
+  list-style: none;
+}
+
+.error {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: crimson;
+  text-align: center;
+}
+
+.msg {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2em;
+  color: greenyellow;
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.315);
+}
+
+.button {
+  display: inline-block;
+  margin: 20px;
+  padding: 9px 15px;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+}
+
+.button:hover {
+  background-color: rgb(168, 249, 255);
+  cursor: pointer;
+}
